@@ -2,7 +2,7 @@
   <section id="app" class="h-screen bg-green-500">
     <div class="flex justify-center">
       <img
-        class="rounded-full border-2 border-white w-1/4"
+        class="rounded-full border-2 border-white w-1/2 lg:w-1/4"
         src="./assets/img/ryan-pays-horseback.jpg"
         alt="The one and only Ryan Pays!"
       />
