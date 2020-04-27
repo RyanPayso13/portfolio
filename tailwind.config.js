@@ -1,6 +1,20 @@
 module.exports = {
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        green: {
+          100: "#a1e0e7",
+          200: "#8dccd3",
+          300: "#79b8bf",
+          400: "#65a4ab",
+          500: "#014e58",
+          600: "#3d7c83",
+          700: "#29686f",
+          800: "#15545b",
+          900: "#014047"
+        }
+      }
+    }
   },
   variants: {},
   plugins: []

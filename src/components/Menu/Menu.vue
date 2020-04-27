@@ -1,11 +1,11 @@
 <template>
-  <nav class="flex flex-row flex-row-reverse bg-indigo-200">
+  <nav class="flex flex-row bg-indigo-200">
     <div
-      class="capitalize"
+      class="flex-1 bg-white capitalize text-center"
       v-for="(item, index) in items"
       :key="index"
       :class="{ 'border-b': index === activeIndex }"
-      :click="goTo(item)"
+      :click="goTo(index)"
     >
       {{ item }}
     </div>
@@ -25,8 +25,8 @@ export default class Menu extends Vue {
     "skills",
     "interests"
   ];
-  goTo(index: number): number {
-    return index;
+  goTo(index: number): void {
+    this.activeIndex = index;
   }
 }
 </script>
