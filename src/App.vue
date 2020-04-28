@@ -3,18 +3,35 @@
     <div class="flex justify-center">
       <img
         class="rounded-full border-2 border-white w-1/2 lg:w-1/4"
-        src="./assets/img/ryan-pays-horseback.jpg"
+        src="@/assets/img/ryan-pays-horseback.jpg"
         alt="The one and only Ryan Pays!"
       />
+    </div>
+    <div class="flex justify-center space-x-4">
+      <a href="https://github.com/RyanPayso13">
+        <v-icon class="text-white" name="brands/github" scale="6" />
+      </a>
+      <a href="https://www.facebook.com/ryan.pays">
+        <v-icon class="text-white" name="brands/facebook" scale="6" />
+      </a>
+      <a href="@/assets/doc/ryan-pays-cv.pdf" target="_blank">
+        <v-icon class="text-white" name="file-pdf" scale="6" />
+      </a>
     </div>
   </section>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
+import Icon from "vue-awesome/components/Icon.vue";
+import "vue-awesome/icons/brands/github";
+import "vue-awesome/icons/brands/facebook";
+import "vue-awesome/icons/file-pdf";
 
 @Component({
-  components: {}
+  components: {
+    "v-icon": Icon
+  }
 })
 export default class App extends Vue {}
 </script>
