@@ -8,17 +8,13 @@
       />
     </div>
     <div class="flex justify-center text-white mt-8">
-      <a class="inline-block mr-4" href="https://github.com/RyanPayso13">
+      <a class="mr-4" href="https://github.com/RyanPayso13">
         <v-icon name="brands/github" scale="6" />
       </a>
-      <a class="inline-block" href="https://www.facebook.com/ryan.pays">
+      <a href="https://www.facebook.com/ryan.pays">
         <v-icon name="brands/facebook" scale="6" />
       </a>
-      <a
-        class="inline-block ml-4"
-        href="@/assets/doc/ryan-pays-cv.pdf"
-        target="_blank"
-      >
+      <a class="ml-4" href="/doc/ryan-pays-cv.pdf" target="_blank">
         <v-icon name="file-pdf" scale="6" />
       </a>
     </div>
