@@ -7,15 +7,36 @@
         alt="The one and only Ryan Pays!"
       />
     </div>
+    <div class="flex flex-col text-white">
+      <h1>Hi, I'm Ryan Pays!</h1>
+      <p>
+        I am a user interface engineer with over a decade of experience
+        delivering agile, lean and scalable solutions.
+      </p>
+      <p>
+        I have worked in a broad spectrum of industries ranging from sports
+        betting, consultancy, VC backed start-ups and everything inbetween.
+      </p>
+      <p>
+        If you have a project, gig or side-hustle I might be interested in
+        please feel free to
+        <a
+          href="mailto:ryan.pays@gmail.com?subject=Contact from ryanpays.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          >contact me!</a
+        >
+      </p>
+    </div>
     <div class="flex justify-center mt-8">
       <a class="mr-4" href="https://github.com/RyanPayso13">
-        <v-icon color="white" name="brands/github" scale="6" />
+        <v-icon color="white" name="brands/github" scale="3" />
       </a>
       <a href="https://www.facebook.com/ryan.pays">
-        <v-icon color="white" name="brands/facebook" scale="6" />
+        <v-icon color="white" name="brands/facebook" scale="3" />
       </a>
       <a class="ml-4" href="/doc/ryan-pays-cv.pdf" target="_blank">
-        <v-icon color="white" name="file-pdf" scale="6" />
+        <v-icon color="white" name="file-pdf" scale="3" />
       </a>
     </div>
   </section>
