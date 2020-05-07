@@ -20,6 +20,9 @@ module.exports = {
           500: "#6b989e"
         }
       }
+    },
+    fontFamily: {
+      sans: ["Nunito", "Sans-serif"]
     }
   },
   variants: {},
