@@ -3,7 +3,7 @@
     <div
       class="container mx-auto flex flex-col items-stretch h-screen bg-green-900 p-4"
     >
-      <div class="flex flex-none justify-center mb-8">
+      <div class="flex flex-none justify-center mb-6">
         <img
           class="rounded-full border-2 border-white w-1/2"
           src="@/assets/img/ryan-pays-horseback.jpg"
