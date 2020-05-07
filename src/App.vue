@@ -1,24 +1,26 @@
 <template>
-  <section id="app" class="h-screen bg-green-500">
-    <div class="container mx-auto flex flex-col h-screen">
-      <div>
+  <section id="app" class="h-screen bg-green-500 text-white">
+    <div
+      class="container mx-auto flex flex-col items-stretch h-screen bg-green-900 p-4"
+    >
+      <div class="flex flex-none justify-center mb-8">
         <img
           class="rounded-full border-2 border-white w-1/2"
           src="@/assets/img/ryan-pays-horseback.jpg"
           alt="The one and only Ryan Pays!"
         />
       </div>
-      <div class="text-white">
-        <h1>Hi, I'm Ryan Pays!</h1>
-        <p>
-          I am a user interface engineer with over a decade of experience
+      <div class="flex-grow">
+        <h1 class="text-4xl mb-6">Hi, I'm Ryan Pays!</h1>
+        <p class="text-lg mb-4">
+          I am a user-interface engineer with over a decade of experience
           delivering agile, lean and scalable solutions.
         </p>
-        <p>
+        <p class="text-lg mb-4">
           I have worked in a broad spectrum of industries ranging from sports
-          betting, consultancy, VC backed start-ups and everything inbetween.
+          betting, consultancy, start-ups and everything in-between.
         </p>
-        <p>
+        <p class="text-lg mb-4">
           If you have a project, gig or side-hustle I might be interested in
           please feel free to
           <a
@@ -29,26 +31,21 @@
           >
         </p>
       </div>
-      <div>
+      <div class="flex flex-none justify-around">
         <a href="https://github.com/RyanPayso13">
-          <v-icon
-            color="white"
-            class="fill-current"
-            name="brands/github"
-            scale="3"
-          />
+          <v-icon class="fill-current" name="brands/github" scale="3" />
         </a>
         <a href="https://www.facebook.com/ryan.pays">
-          <v-icon color="white" name="brands/facebook" scale="3" />
+          <v-icon class="fill-current" name="brands/facebook" scale="3" />
         </a>
         <a href="/doc/ryan-pays-cv.pdf" target="_blank">
-          <v-icon color="white" name="file-pdf" scale="3" />
+          <v-icon class="fill-current" name="file-pdf" scale="3" />
         </a>
         <a
           href="mailto:ryan.pays@gmail.com?subject=Contact from ryanpays.com"
           target="_blank"
         >
-          <v-icon color="white" name="envelope" scale="3" />
+          <v-icon class="fill-current" name="envelope" scale="3" />
         </a>
       </div>
     </div>
