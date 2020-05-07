@@ -60,7 +60,6 @@
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import VueAnalytics from "vue-analytics";
 import Icon from "vue-awesome/components/Icon.vue";
 import "vue-awesome/icons/brands/github";
 import "vue-awesome/icons/brands/facebook";
