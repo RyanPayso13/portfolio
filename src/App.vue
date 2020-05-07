@@ -1,9 +1,9 @@
 <template>
   <section id="app" class="h-screen bg-green-500 text-white">
     <div
-      class="container mx-auto flex flex-col items-stretch h-screen bg-green-900 p-4"
+      class="container mx-auto flex flex-col items-stretch h-screen bg-green-900 p-4 lg:p-8"
     >
-      <div class="flex flex-none justify-center mb-6">
+      <div class="flex flex-none justify-center mb-6 lg:mb-10">
         <img
           class="rounded-full border-2 border-white w-1/2"
           src="@/assets/img/ryan-pays-horseback.jpg"
@@ -11,21 +11,21 @@
         />
       </div>
       <div class="flex-grow">
-        <h1 class="text-2xl mb-4 lg:text-4xl">
+        <h1 class="text-2xl mb-4 lg:text-4xl lg:mb-8">
           Hi, I'm
           <span class="text-salmon-500 font-extrabold text-4xl lg:text-6xl"
             >Ryan Pays!</span
           >
         </h1>
-        <p class="text-lg mb-4 lg:text-4xl">
+        <p class="text-lg mb-4 lg:text-4xl lg:mb-8">
           I'm a user-interface engineer with over a decade of experience
           delivering agile, lean and scalable solutions.
         </p>
-        <p class="text-lg mb-4 lg:text-4xl">
+        <p class="text-lg mb-4 lg:text-4xl lg:mb-8">
           I have delivered in diverse projects ranging from sports-betting,
           consultancy, start-ups and everything in-between.
         </p>
-        <p class="text-lg mb-4 lg:text-4xl">
+        <p class="text-lg mb-4 lg:text-4xl lg:mb-8">
           If you have a project, gig or side-hustle I might be interested in
           please feel free to
           <a
