@@ -11,7 +11,7 @@
         />
       </div>
       <div class="flex-grow">
-        <h1 class="text-4xl mb-6">
+        <h1 class="text-4xl mb-4">
           Hi, I'm <span class="text-salmon-500 font-extrabold">Ryan Pays!</span>
         </h1>
         <p class="text-lg mb-4">
