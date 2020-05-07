@@ -6,7 +6,7 @@
       <div class="flex flex-none justify-center mb-6 lg:mb-10">
         <img
           class="rounded-full border-2 border-white w-1/2"
-          src="@/assets/img/ryan-pays-horseback.jpg"
+          src="@/assets/img/ryan-pays-donut.jpg"
           alt="The one and only Ryan Pays!"
         />
       </div>
