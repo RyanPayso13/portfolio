@@ -11,16 +11,19 @@
         />
       </div>
       <div class="flex-grow">
-        <h1 class="text-4xl mb-4">
-          Hi, I'm <span class="text-salmon-500 font-extrabold">Ryan Pays!</span>
+        <h1 class="text-2xl mb-4">
+          Hi, I'm
+          <span class="text-salmon-500 font-extrabold text-4xl"
+            >Ryan Pays!</span
+          >
         </h1>
         <p class="text-lg mb-4">
           I'm a user-interface engineer with over a decade of experience
           delivering agile, lean and scalable solutions.
         </p>
         <p class="text-lg mb-4">
-          I have worked in a broad spectrum of industries ranging from sports
-          betting, consultancy, start-ups and everything in-between.
+          I have delivered in diverse projects ranging from sports-betting,
+          consultancy, start-ups and everything in-between.
         </p>
         <p class="text-lg mb-4">
           If you have a project, gig or side-hustle I might be interested in
