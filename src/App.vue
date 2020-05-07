@@ -11,9 +11,11 @@
         />
       </div>
       <div class="flex-grow">
-        <h1 class="text-4xl mb-6">Hi, I'm Ryan Pays!</h1>
+        <h1 class="text-4xl mb-6">
+          Hi, I'm <span class="text-salmon-500 font-extrabold">Ryan Pays!</span>
+        </h1>
         <p class="text-lg mb-4">
-          I am a user-interface engineer with over a decade of experience
+          I'm a user-interface engineer with over a decade of experience
           delivering agile, lean and scalable solutions.
         </p>
         <p class="text-lg mb-4">
@@ -24,6 +26,7 @@
           If you have a project, gig or side-hustle I might be interested in
           please feel free to
           <a
+            class="text-green-100 underline"
             href="mailto:ryan.pays@gmail.com?subject=Contact from ryanpays.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -31,7 +34,7 @@
           >
         </p>
       </div>
-      <div class="flex flex-none justify-around">
+      <div class="flex flex-none justify-around text-icon-500">
         <a href="https://github.com/RyanPayso13">
           <v-icon class="fill-current" name="brands/github" scale="3" />
         </a>
