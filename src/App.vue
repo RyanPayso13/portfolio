@@ -34,7 +34,7 @@
           >
         </p>
       </div>
-      <div class="flex flex-none justify-around text-icon-500">
+      <div class="flex flex-none justify-between text-icon-500">
         <a href="https://github.com/RyanPayso13">
           <v-icon class="fill-current" name="brands/github" scale="3" />
         </a>
