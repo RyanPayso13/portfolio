@@ -38,23 +38,23 @@
         </p>
       </div>
       <div
-        class="flex flex-none justify-between text-icon-500 lg:text-6xl lg:justify-center"
+        class="flex flex-none justify-between text-icon-500 text-l lg:text-4xl"
       >
         <a href="https://github.com/RyanPayso13">
-          <v-icon class="fill-current" name="brands/github" />
+          <v-icon class="fill-current" name="brands/github" scale="3" />
         </a>
         <a class="lg:ml-8" href="https://www.facebook.com/ryan.pays">
-          <v-icon class="fill-current" name="brands/facebook" />
+          <v-icon class="fill-current" name="brands/facebook" scale="3" />
         </a>
         <a class="lg:ml-8" href="/doc/ryan-pays-cv.pdf" target="_blank">
-          <v-icon class="fill-current" name="file-pdf" />
+          <v-icon class="fill-current" name="file-pdf" scale="3" />
         </a>
         <a
           class="lg:ml-8"
           href="mailto:ryan.pays@gmail.com?subject=Contact from ryanpays.com"
           target="_blank"
         >
-          <v-icon class="fill-current" name="envelope" />
+          <v-icon class="fill-current" name="envelope" scale="3" />
         </a>
       </div>
     </div>
