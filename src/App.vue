@@ -11,21 +11,21 @@
         />
       </div>
       <div class="flex-grow">
-        <h1 class="text-2xl mb-4">
+        <h1 class="text-2xl mb-4 lg:text-4xl">
           Hi, I'm
-          <span class="text-salmon-500 font-extrabold text-4xl"
+          <span class="text-salmon-500 font-extrabold text-4xl lg:text-6xl"
             >Ryan Pays!</span
           >
         </h1>
-        <p class="text-lg mb-4">
+        <p class="text-lg mb-4 lg:text-4xl">
           I'm a user-interface engineer with over a decade of experience
           delivering agile, lean and scalable solutions.
         </p>
-        <p class="text-lg mb-4">
+        <p class="text-lg mb-4 lg:text-4xl">
           I have delivered in diverse projects ranging from sports-betting,
           consultancy, start-ups and everything in-between.
         </p>
-        <p class="text-lg mb-4">
+        <p class="text-lg mb-4 lg:text-4xl">
           If you have a project, gig or side-hustle I might be interested in
           please feel free to
           <a
@@ -37,17 +37,20 @@
           >
         </p>
       </div>
-      <div class="flex flex-none justify-between text-icon-500">
+      <div
+        class="flex flex-none justify-between text-icon-500 lg:justify-center"
+      >
         <a href="https://github.com/RyanPayso13">
           <v-icon class="fill-current" name="brands/github" scale="3" />
         </a>
-        <a href="https://www.facebook.com/ryan.pays">
+        <a class="lg:ml-8" href="https://www.facebook.com/ryan.pays">
           <v-icon class="fill-current" name="brands/facebook" scale="3" />
         </a>
-        <a href="/doc/ryan-pays-cv.pdf" target="_blank">
+        <a class="lg:ml-8" href="/doc/ryan-pays-cv.pdf" target="_blank">
           <v-icon class="fill-current" name="file-pdf" scale="3" />
         </a>
         <a
+          class="lg:ml-8"
           href="mailto:ryan.pays@gmail.com?subject=Contact from ryanpays.com"
           target="_blank"
         >
